@@ -1,4 +1,30 @@
 ﻿<Properties StartupConfiguration="{0F03BF26-D073-4A46-AFD9-FB866F06796E}|Default">
-  <MonoDevelop.Ide.ItemProperties.asp__project FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.asp__project PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/wwwroot/css/site.css">
+    <Files>
+      <File FileName="asp_project/wwwroot/css/site.css" Line="5" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="asp_project" expanded="True">
+            <Node name="asp_project" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True">
+                  <Node name="site.css" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
