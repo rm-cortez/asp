@@ -1,9 +1,15 @@
 ﻿@page
 @model MyApp.Namespace.AboutModel
 @{
-    
+    string name = "ronald";
 }
 
 
-    <button type="button" class="btn btn-primary" oncclick="Btn_click">Primary</button>
-
+    <button type="button" class="btn btn-primary" onClick="Btn_click()">Primary</button>
+<script>
+    function Btn_click() {
+        var name = '@name'
+            console.log('click')
+            console.log(name)
+    }
+</script>

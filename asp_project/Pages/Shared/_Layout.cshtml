@@ -1,6 +1,9 @@
 ﻿@{
     ViewData["project"] = "ASP Project";
-    var _pages = new[] { "Index","About" };
+
+    var _pagesArr = new[] { "Index","About" };
+
+
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +25,7 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
-                        @foreach (var _page in _pages)
+                        @foreach (var _page in _pagesArr)
                         {
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-page="/@_page">@_page</a>
@@ -43,7 +46,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2020 - asp_project - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; @DateTime.Now.Year.ToString() - @ViewData["project"] - <a asp-area="" asp-page="/About">About</a>
         </div>
     </footer>
 
