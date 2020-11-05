@@ -8,7 +8,6 @@
 /Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/asp_project.pdb
 /Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/asp_project.Views.dll
 /Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/asp_project.Views.pdb
-/Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.csprojAssemblyReference.cache
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.AssemblyInfoInputs.cache
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.AssemblyInfo.cs
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.csproj.CoreCompileInputs.cache
@@ -18,6 +17,7 @@
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.TagHelpers.input.cache
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.TagHelpers.output.cache
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.RazorCoreGenerate.cache
+/Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/Razor/Pages/About.cshtml.g.cs
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/Razor/Pages/Privacy.cshtml.g.cs
