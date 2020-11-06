@@ -20,7 +20,7 @@
       "outputPath": "/Users/ronaldcortez/projects/asp_project/asp_project/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ronaldcortez/.config/NuGet/NuGet.Config"
+        "/Users/ronaldcortez/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
