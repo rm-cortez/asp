@@ -8,6 +8,12 @@
 /Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/asp_project.pdb
 /Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/asp_project.Views.dll
 /Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/asp_project.Views.pdb
+/Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/System.Data.SqlClient.dll
+/Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+/Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+/Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+/Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.AssemblyInfoInputs.cache
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.AssemblyInfo.cs
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.csproj.CoreCompileInputs.cache
@@ -28,9 +34,9 @@
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.RazorTargetAssemblyInfo.cache
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.RazorTargetAssemblyInfo.cs
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.Views.pdb
+/Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.csproj.CopyComplete
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/staticwebassets/asp_project.StaticWebAssets.Manifest.cache
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/staticwebassets/asp_project.StaticWebAssets.xml
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.dll
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.pdb
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.genruntimeconfig.cache
-/Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.csproj.CopyComplete

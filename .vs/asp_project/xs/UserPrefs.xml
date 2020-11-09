@@ -1,16 +1,10 @@
 ﻿<Properties StartupConfiguration="{0F03BF26-D073-4A46-AFD9-FB866F06796E}|Default">
   <MonoDevelop.Ide.ItemProperties.asp__project PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/Pages/Index.cshtml.cs">
     <Files>
-      <File FileName="asp_project/Program.cs" Line="6" Column="28" IsPinned="True" />
-      <File FileName="asp_project/wwwroot/css/site.css" Line="68" Column="19" />
-      <File FileName="asp_project/Pages/Index.cshtml" Line="8" Column="8" />
-      <File FileName="asp_project/Pages/Index.cshtml.cs" Line="39" Column="48" />
-      <File FileName="asp_project/Pages/About.cshtml" Line="8" Column="4" />
-      <File FileName="asp_project/Pages/Shared/_Layout.cshtml" Line="32" Column="48" />
-      <File FileName="asp_project/Pages/About.cshtml.cs" Line="1" Column="1" />
-      <File FileName="asp_project/appsettings.json" Line="11" Column="34" />
-      <File FileName="asp_project/Startup.cs" Line="18" Column="13" />
+      <File FileName="asp_project/Pages/Index.cshtml" Line="4" Column="4" />
+      <File FileName="asp_project/Pages/Index.cshtml.cs" Line="26" Column="9" />
+      <File FileName="asp_project/appsettings.json" Line="14" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,15 +14,25 @@
               <Node name="Pages" expanded="True">
                 <Node name="Shared" expanded="True" />
                 <Node name="About.cshtml" expanded="True" />
-                <Node name="Index.cshtml" expanded="True" />
+                <Node name="Index.cshtml" expanded="True">
+                  <Node name="Index.cshtml.cs" selected="True" />
+                </Node>
                 <Node name="Privacy.cshtml" expanded="True" />
               </Node>
+              <Node name="Properties" expanded="True" />
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
               </Node>
-              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>Configuration</Value>
+          <Value>Configuration</Value>
+          <Value>command</Value>
+          <Value>connection</Value>
         </State>
       </Pad>
     </Pads>
@@ -36,7 +40,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/ronaldcortez/projects/asp_project/asp_project/Pages/Index.cshtml.cs" relfile="asp_project/Pages/Index.cshtml.cs" line="42" column="13" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

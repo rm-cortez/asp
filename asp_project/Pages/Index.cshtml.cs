@@ -30,7 +30,22 @@ namespace asp_project.Pages
             name = "ronald";
 
 
-        //public string connString = Configuration["ConnectionStrings:myDb1"];
+            //public string connString = Configuration["ConnectionStrings:myDb1"];
+
+
+            //SqlConnection connection = new SqlConnection(Configuration["ConnectionStrings:myDb1"]);
+
+            //SqlCommand command = new SqlCommand("select * from table_1", connection);
+
+            //connection.Open();
+
+            //Console.WriteLine("sql: ", connection);
+
+            
+
+
+
+
 
         }
 
