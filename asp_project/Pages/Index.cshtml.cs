@@ -16,6 +16,7 @@ namespace asp_project.Pages
         private readonly ILogger<IndexModel> _logger;
         private readonly IConfiguration Configuration;
         public string name;
+        public string connString;
 
         public IndexModel(ILogger<IndexModel> logger, IConfiguration configuration)
         {
@@ -25,23 +26,38 @@ namespace asp_project.Pages
 
         public void OnGet()
         {
-            Console.WriteLine(Configuration["ConnectionStrings:myDb1"]);
+            //Console.WriteLine(Configuration["ConnectionStrings:myDb1"]);
 
             name = "ronald";
 
+            connString = Configuration["ConnectionStrings:myDb1"];
 
-            //public string connString = Configuration["ConnectionStrings:myDb1"];
+            Console.WriteLine(connString);
 
 
-            //SqlConnection connection = new SqlConnection(Configuration["ConnectionStrings:myDb1"]);
 
-            //SqlCommand command = new SqlCommand("select * from table_1", connection);
 
-            //connection.Open();
+            SqlConnection connection = new SqlConnection(connString);
 
-            //Console.WriteLine("sql: ", connection);
+            SqlCommand command = new SqlCommand("select * from table_1", connection);
 
-            
+            connection.Open();
+
+            SqlDataReader reader = command.ExecuteReader();
+
+            while (reader.Read())
+            {
+                Console.WriteLine($" " +
+                    $"{reader.GetName(0)} :{reader.GetValue(0)} " +
+                    $"-- " +
+                    $"{reader.GetName(1)}:{reader.GetValue(1)} ");
+
+            }
+            connection.Close();
+            connection.Dispose();
+            //    Console.WriteLine("sql: ", connection);
+
+
 
 
 
@@ -50,7 +66,7 @@ namespace asp_project.Pages
         }
 
 
-       
+
 
 
     }
