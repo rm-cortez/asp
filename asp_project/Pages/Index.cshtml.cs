@@ -15,8 +15,10 @@ namespace asp_project.Pages
 
         private readonly ILogger<IndexModel> _logger;
         
-        public string name;
+        
         private readonly IConfiguration Configuration;
+        public string name;
+        public List<Dictionary<string, string>> values;
 
 
         public IndexModel(ILogger<IndexModel> logger, IConfiguration configuration)
@@ -31,8 +33,11 @@ namespace asp_project.Pages
           
 
             Db_connect dbconnect = new Db_connect(Configuration);
-            name = dbconnect.exec_query("select * from technologies");
+            values = new List<Dictionary<string, string>>();
+            values = dbconnect.exec_query("select * from technologies");
 
+            
+            
            
 
 

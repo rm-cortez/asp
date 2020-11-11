@@ -3,6 +3,8 @@
 @{
     ViewData["Title"] = "Home Page";
     var _name = Model.name;
+    var ct = 0;
+   
     //var _conn = Model.connString;
 
     
@@ -15,7 +17,34 @@
         <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 
         <p>@_name</p>
+
+        <table class="table">
+
+            @foreach (var items in Model.values)
+            {
+            <tr>
+                @if (ct++ == 0)
+                {
+                    @foreach (var item in items)
+                    {
+                        <th>@item.Key</th>
+                    }
+                }
+
+
+
+            </tr>
+                <tr>
+                    @foreach (var item in items)
+                    {
+                        <td>@item.Value</td>
+                    }
+
+                </tr>
+            }
+        </table>
        
+
 
 
 

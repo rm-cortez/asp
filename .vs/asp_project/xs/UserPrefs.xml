@@ -1,13 +1,11 @@
 ﻿<Properties StartupConfiguration="{0F03BF26-D073-4A46-AFD9-FB866F06796E}|Default">
   <MonoDevelop.Ide.ItemProperties.asp__project PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/Db_connect.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/Pages/About.cshtml.cs">
     <Files>
       <File FileName="asp_project/Pages/Index.cshtml" Line="4" Column="4" />
-      <File FileName="asp_project/Pages/Index.cshtml.cs" Line="24" Column="36" />
-      <File FileName="asp_project/appsettings.json" Line="11" Column="88" />
-      <File FileName="asp_project/Program.cs" Line="16" Column="1" />
-      <File FileName="asp_project/Pages/About.cshtml" Line="1" Column="1" />
-      <File FileName="asp_project/Db_connect.cs" Line="13" Column="1" NotebookId="1" />
+      <File FileName="asp_project/Pages/Index.cshtml.cs" Line="42" Column="1" />
+      <File FileName="asp_project/Db_connect.cs" Line="76" Column="16" />
+      <File FileName="asp_project/Pages/About.cshtml.cs" Line="31" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,13 +13,16 @@
           <Node name="asp_project" expanded="True">
             <Node name="asp_project" expanded="True">
               <Node name="Pages" expanded="True">
+                <Node name="About.cshtml" expanded="True">
+                  <Node name="About.cshtml.cs" selected="True" />
+                </Node>
                 <Node name="Index.cshtml" expanded="True" />
+                <Node name="Privacy.cshtml" expanded="True" />
               </Node>
               <Node name="Properties" expanded="True" />
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
               </Node>
-              <Node name="Db_connect.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -32,6 +33,9 @@
           <Value>Configuration</Value>
           <Value>command</Value>
           <Value>connection</Value>
+          <Value>results</Value>
+          <Value>reader</Value>
+          <Value>lst</Value>
         </State>
       </Pad>
     </Pads>
@@ -39,7 +43,10 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/ronaldcortez/projects/asp_project/asp_project/Pages/About.cshtml.cs" relfile="asp_project/Pages/About.cshtml.cs" line="36" column="1" />
+      <Breakpoint file="/Users/ronaldcortez/projects/asp_project/asp_project/Pages/Index.cshtml.cs" relfile="asp_project/Pages/Index.cshtml.cs" line="41" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
