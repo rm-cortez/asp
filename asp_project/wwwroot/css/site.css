@@ -2,10 +2,18 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand {
-  text-transform:capitalize;
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    padding-left:40px;
+    position: relative;
+    text-transform: capitalize;
+    text-align: center;
+    white-space: normal;
+    word-break: break-all;
+}
+
+a.navbar-brand img{
+    position:absolute;
+    top:-21px;
+    left:0;
 }
 
 /* Provide sufficient contrast against white background */

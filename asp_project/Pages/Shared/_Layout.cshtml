@@ -18,9 +18,8 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">
+                <a class="navbar-brand" href="http://rcsproductions.us">
                     <img src="~/img/cropped-logo-7.png" width="50" height="50" class="d-inline-block align-top nav-bar-icon" alt="rcsproductions" loading="lazy">
-                    @ViewData["project"]
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -28,26 +27,32 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-page="/Index">
+                                @ViewData["project"]
+                            </a>
+                        </li>
+                        
                         @foreach (var _page in _pagesArr)
                         {
-                            
-                       
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" asp-area="" asp-page="/@_page">
-                                        
 
-                                        @if (_page == "Index")
-                                        {
-                                            @Html.Raw("Home")
-                                        }
-                                        else
-                                        {
-                                            @Html.Raw(@_page)
-                                        }
 
-                                    </a>
-                                </li>
-                            
+                            <li >
+                                <a class="nav-link text-white" asp-area="" asp-page="/@_page">
+
+
+                                    @if (_page == "Index")
+                                    {
+                                        @Html.Raw("Home")
+                                    }
+                                    else
+                                    {
+                                        @Html.Raw(@_page)
+                                    }
+
+                                </a>
+                            </li>
+
 
                         }
 
