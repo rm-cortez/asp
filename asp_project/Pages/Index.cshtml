@@ -11,41 +11,41 @@
     
 
 }
+    <div class="col-md-8">
+        <div class="">
+            <h1 class="display-4">Welcome</h1>
+            <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 
-    <div class="text-center">
-        <h1 class="display-4">Welcome</h1>
-        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+            <p>@_name</p>
 
-        <p>@_name</p>
+            <table class="table">
 
-        <table class="table">
-
-            @foreach (var items in Model.values)
-            {
-            <tr>
-                @if (ct++ == 0)
+                @foreach (var items in Model.values)
                 {
-                    @foreach (var item in items)
-                    {
-                        <th>@item.Key</th>
-                    }
+                    <tr>
+                        @if (ct++ == 0)
+                        {
+                            @foreach (var item in items)
+                            {
+                                <th>@item.Key</th>
+                            }
+                        }
+
+
+
+                    </tr>
+                    <tr>
+                        @foreach (var item in items)
+                        {
+                            <td>@item.Value</td>
+                        }
+
+                    </tr>
                 }
+            </table>
 
-
-
-            </tr>
-                <tr>
-                    @foreach (var item in items)
-                    {
-                        <td>@item.Value</td>
-                    }
-
-                </tr>
-            }
-        </table>
-       
-
-
-
-
+        </div>
+    </div>
+    <div class="col-md-4">
+      <partial name="_Sidebar" />
     </div>

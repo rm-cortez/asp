@@ -34,7 +34,7 @@ namespace asp_project.Pages
 
             Db_connect dbconnect = new Db_connect(Configuration);
             values = new List<Dictionary<string, string>>();
-            values = dbconnect.exec_query("select * from technologies");
+            //values = dbconnect.exec_query("select * from technologies");
 
             
             
