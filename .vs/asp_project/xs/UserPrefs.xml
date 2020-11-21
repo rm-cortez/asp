@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{0F03BF26-D073-4A46-AFD9-FB866F06796E}|Default">
   <MonoDevelop.Ide.ItemProperties.asp__project PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/Pages/About.cshtml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/Pages/About.cshtml">
     <Files>
-      <File FileName="asp_project/Pages/Index.cshtml" Line="16" Column="7" />
+      <File FileName="asp_project/Pages/Index.cshtml" Line="4" Column="30" />
       <File FileName="asp_project/Pages/Index.cshtml.cs" Line="37" Column="1" />
       <File FileName="asp_project/Db_connect.cs" Line="31" Column="1" />
-      <File FileName="asp_project/Pages/Shared/_Layout.cshtml" Line="35" Column="34" />
+      <File FileName="asp_project/Pages/Shared/_Layout.cshtml" Line="62" Column="30" />
       <File FileName="asp_project/wwwroot/css/site.css" Line="19" Column="59" />
       <File FileName="asp_project/Pages/About.cshtml.cs" Line="1" Column="1" />
+      <File FileName="asp_project/Pages/About.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,9 +17,7 @@
             <Node name="asp_project" expanded="True">
               <Node name="Pages" expanded="True">
                 <Node name="Shared" expanded="True" />
-                <Node name="About.cshtml" expanded="True">
-                  <Node name="About.cshtml.cs" selected="True" />
-                </Node>
+                <Node name="About.cshtml" expanded="True" selected="True" />
                 <Node name="Index.cshtml" expanded="True" />
                 <Node name="Privacy.cshtml" expanded="True" />
               </Node>
