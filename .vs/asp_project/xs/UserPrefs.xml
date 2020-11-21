@@ -1,15 +1,10 @@
 ﻿<Properties StartupConfiguration="{0F03BF26-D073-4A46-AFD9-FB866F06796E}|Default">
   <MonoDevelop.Ide.ItemProperties.asp__project PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/Pages/Shared/_Sidebar.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/Db_connect.cs">
     <Files>
-      <File FileName="asp_project/Pages/Index.cshtml" Line="37" Column="26" />
-      <File FileName="asp_project/Pages/Index.cshtml.cs" Line="37" Column="15" />
-      <File FileName="asp_project/Db_connect.cs" Line="20" Column="12" />
-      <File FileName="asp_project/Pages/About.cshtml.cs" Line="36" Column="42" />
-      <File FileName="asp_project/Pages/Shared/_Layout.cshtml" Line="55" Column="19" />
-      <File FileName="asp_project/Pages/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
-      <File FileName="asp_project/Pages/About.cshtml" Line="1" Column="1" />
-      <File FileName="asp_project/Pages/Shared/_Sidebar.cshtml" Line="1" Column="1" />
+      <File FileName="asp_project/Pages/Index.cshtml" Line="15" Column="21" />
+      <File FileName="asp_project/Pages/Index.cshtml.cs" Line="37" Column="13" />
+      <File FileName="asp_project/Db_connect.cs" Line="31" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,9 +12,7 @@
           <Node name="asp_project" expanded="True">
             <Node name="asp_project" expanded="True">
               <Node name="Pages" expanded="True">
-                <Node name="Shared" expanded="True">
-                  <Node name="_Sidebar.cshtml" selected="True" />
-                </Node>
+                <Node name="Shared" expanded="True" />
                 <Node name="About.cshtml" expanded="True" />
                 <Node name="Index.cshtml" expanded="True" />
                 <Node name="Privacy.cshtml" expanded="True" />
@@ -28,6 +21,7 @@
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
               </Node>
+              <Node name="Db_connect.cs" selected="True" />
             </Node>
           </Node>
         </State>
