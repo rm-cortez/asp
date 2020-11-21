@@ -17,7 +17,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
-            <div class="container">
+            <div class="container-fluid pl-0">
                 <a class="navbar-brand" href="http://rcsproductions.us">
                     <img src="~/img/cropped-logo-7.png" width="50" height="50" class="d-inline-block align-top nav-bar-icon" alt="rcsproductions" loading="lazy">
                 </a>
@@ -38,11 +38,11 @@
 
                                     @if (_page == "Index")
                                     {
-                                        @Html.Raw(@ViewData["project"])
+                                      @ViewData["project"]
                                     }
                                     else
                                     {
-                                        @Html.Raw(@_page)
+                                        @_page
                                     }
 
                                 </a>
@@ -57,7 +57,7 @@
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container-fluid">
         <main role="main" class="pb-3">
             <div class="row">
                 @RenderBody()
