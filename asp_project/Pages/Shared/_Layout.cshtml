@@ -18,7 +18,10 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">@ViewData["project"]</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index">
+                    <img src="~/img/cropped-logo-7.png" width="50" height="50" class="d-inline-block align-top nav-bar-icon" alt="rcsproductions" loading="lazy">
+                    @ViewData["project"]
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
