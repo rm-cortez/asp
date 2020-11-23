@@ -1,15 +1,12 @@
 ﻿<Properties StartupConfiguration="{0F03BF26-D073-4A46-AFD9-FB866F06796E}|Default">
   <MonoDevelop.Ide.ItemProperties.asp__project PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/Pages/Shared/_Sidebar.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/Db_connect.cs">
     <Files>
-      <File FileName="asp_project/Pages/Index.cshtml" Line="31" Column="23" />
-      <File FileName="asp_project/Pages/Index.cshtml.cs" Line="37" Column="79" />
-      <File FileName="asp_project/Db_connect.cs" Line="31" Column="1" />
-      <File FileName="asp_project/Pages/Shared/_Layout.cshtml" Line="62" Column="30" />
-      <File FileName="asp_project/wwwroot/css/site.css" Line="84" Column="31" />
-      <File FileName="asp_project/Pages/About.cshtml.cs" Line="1" Column="1" />
+      <File FileName="asp_project/Pages/Index.cshtml" Line="21" Column="75" />
+      <File FileName="asp_project/Pages/Index.cshtml.cs" Line="20" Column="28" />
+      <File FileName="asp_project/Db_connect.cs" Line="87" Column="1" />
+      <File FileName="asp_project/Pages/About.cshtml.cs" Line="38" Column="1" />
       <File FileName="asp_project/Pages/About.cshtml" Line="1" Column="1" />
-      <File FileName="asp_project/Pages/Shared/_Sidebar.cshtml" Line="9" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,9 +14,7 @@
           <Node name="asp_project" expanded="True">
             <Node name="asp_project" expanded="True">
               <Node name="Pages" expanded="True">
-                <Node name="Shared" expanded="True">
-                  <Node name="_Sidebar.cshtml" selected="True" />
-                </Node>
+                <Node name="Shared" expanded="True" />
                 <Node name="About.cshtml" expanded="True" />
                 <Node name="Index.cshtml" expanded="True" />
                 <Node name="Privacy.cshtml" expanded="True" />
@@ -28,6 +23,7 @@
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
               </Node>
+              <Node name="Db_connect.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -48,7 +44,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/ronaldcortez/projects/asp_project/asp_project/Pages/About.cshtml.cs" relfile="asp_project/Pages/About.cshtml.cs" line="37" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

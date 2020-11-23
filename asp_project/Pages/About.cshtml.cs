@@ -25,15 +25,15 @@ namespace asp_project.Pages
         {
             if(Request.Query["q"] == "procedure")
             {
-                //Db_connect dbconnect = new Db_connect(Configuration);
-                //status = dbconnect.exec_query("exec procedurename", "nonquery");
+                Db_connect dbconnect = new Db_connect(Configuration);
+                status = dbconnect.exec_non_query("exec procedurename");
+
+
+
+                //results = dbconnect.exec_query("select * from table_1");
+
+
                 
-
-
-                //results = (dbconnect.exec_query("select * from table_1").Split("\\"));
-
-
-                //dbconnect.close_conn();
             }
             
         }

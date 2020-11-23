@@ -17,14 +17,14 @@ namespace asp_project
         public Db_connect(IConfiguration configuration)
         {
             Configuration = configuration;
-           
+            connString = Configuration["ConnectionStrings:myDb1"];
 
         }
 
         public List<Dictionary<string,string>> exec_query(string query)
         {
             
-            connString = Configuration["ConnectionStrings:myDb1"];
+            
             connection = new SqlConnection(connString);
             SqlCommand command = new SqlCommand(query, connection);
 
@@ -77,7 +77,21 @@ namespace asp_project
 
         }
 
-        
+        public string exec_non_query(string query)
+        {
+            connection = new SqlConnection(connString);
+            SqlCommand command = new SqlCommand(query, connection);
+
+            connection.Open();
+
+            command.ExecuteNonQuery();
+
+            string retString = (string)command.ExecuteScalar();
+
+            close_conn();
+
+            return retString;
+        }
 
         public void close_conn()
         {
