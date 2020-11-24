@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "w41vwXEHxtidsbycVM58NwGxSzwO78UjTkMjRDZ8WCS1gXpIuGWsVOUpwP4GeXfk55+9G743D/bj9hAgZIsGCQ==",
+  "dgSpecHash": "7AsrDSj1aPHiTM4tA1WkJPutVBY5syrFv0bjfnTSNRaHIhrcj8iuiWmKl4qqBhhSRpbD5/QPH/RJoS1CVrnnmw==",
   "success": true,
   "projectFilePath": "/Users/ronaldcortez/projects/asp_project/asp_project/asp_project.csproj",
   "expectedPackageFiles": [
     "/Users/ronaldcortez/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/Users/ronaldcortez/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "/Users/ronaldcortez/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/ronaldcortez/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "/Users/ronaldcortez/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/ronaldcortez/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

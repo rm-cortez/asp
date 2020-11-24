@@ -6,6 +6,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
+
+
+
+
+
 
 
 namespace asp_project.Pages
@@ -19,6 +25,7 @@ namespace asp_project.Pages
         private readonly IConfiguration Configuration;
         public string name;
         public List<Dictionary<string, string>> values;
+        public string output;
 
 
         public IndexModel(ILogger<IndexModel> logger, IConfiguration configuration)
@@ -34,13 +41,11 @@ namespace asp_project.Pages
 
             Db_connect dbconnect = new Db_connect(Configuration);
             values = new List<Dictionary<string, string>>();
-            values = dbconnect.exec_query("select * from table_1 order by name");
-
-            
-            
-           
+            values = dbconnect.exec_query("select * from technologies order by name");
 
 
+            output = System.Net.WebUtility.HtmlDecode(JsonConvert.SerializeObject( values) );
+          
         }
 
 

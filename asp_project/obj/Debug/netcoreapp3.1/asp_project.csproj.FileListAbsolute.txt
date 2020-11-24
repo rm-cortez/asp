@@ -8,6 +8,7 @@
 /Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/asp_project.pdb
 /Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/asp_project.Views.dll
 /Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/asp_project.Views.pdb
+/Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
 /Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/System.Data.SqlClient.dll
 /Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
 /Users/ronaldcortez/projects/asp_project/asp_project/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll

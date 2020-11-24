@@ -57,24 +57,7 @@ namespace asp_project
                 close_conn();
 
                 return lst;
-
-
-            
-            //else
-            //{
-                
-            //    command.ExecuteNonQuery();
-
-            //    retString = (string)command.ExecuteScalar();
-
-            //    close_conn();
-
-            //    return retString;
-
-            //}
-
-            
-
+           
         }
 
         public string exec_non_query(string query)

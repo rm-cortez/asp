@@ -66,4 +66,24 @@
 
     </div>
 </div>
+<div>
+    <input id="outputStr" value=" @Model.output" type="hidden" />
+   
+</div>
+
+<script>
+ 
+   
+
+    var obj = JSON.parse(document.querySelector('#outputStr').value)
+    console.log(obj)
+
+
+    
+
+    document.addEventListener("DOMContentLoaded", function () {
+        console.log('jquery:', $('#outputStr').val())
+
+    });
+</script>
 
