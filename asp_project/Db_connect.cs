@@ -62,16 +62,32 @@ namespace asp_project
 
         public string exec_non_query(string query)
         {
+            string retString;
             connection = new SqlConnection(connString);
             SqlCommand command = new SqlCommand(query, connection);
 
             connection.Open();
 
-            command.ExecuteNonQuery();
+            try
+            {
+                command.ExecuteNonQuery();
 
-            string retString = (string)command.ExecuteScalar();
+                 retString = (string)command.ExecuteScalar();
+            }
 
-            close_conn();
+            catch(Exception e)
+            {
+                retString = e.Message;
+
+            }
+
+            finally{
+                close_conn();
+            }
+
+            
+
+            
 
             return retString;
         }
