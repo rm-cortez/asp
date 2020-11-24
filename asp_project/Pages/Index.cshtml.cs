@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
-
+using System.Net.Http;
 
 
 
@@ -44,11 +44,30 @@ namespace asp_project.Pages
             values = dbconnect.exec_query("select * from technologies order by name");
 
 
-            output = System.Net.WebUtility.HtmlDecode(JsonConvert.SerializeObject( values) );
-          
+            //output = System.Net.WebUtility.HtmlDecode(JsonConvert.SerializeObject( values) );
+
+
+
+
+            var ts =  getJson();
+            output = ts.Result;
+
+
+            //hp.GetStringAsync("http://rcsproductions.us/json-builder.php");
+
         }
 
+        public async Task<string> getJson()
+        {
+            //get request
+            HttpClient hp = new HttpClient();
+            hp.BaseAddress = new Uri("http://rcsproductions.us/");
+            var response = (await hp.GetAsync("json-builder.php") ).Content.ReadAsStringAsync().Result;
 
+            
+            return response;
+
+        }
 
 
 

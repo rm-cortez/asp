@@ -85,12 +85,11 @@ namespace asp_project
                 close_conn();
             }
 
-            
-
-            
 
             return retString;
         }
+
+
 
         public void close_conn()
         {
