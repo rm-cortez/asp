@@ -48,12 +48,13 @@ namespace asp_project.Pages
 
 
 
+            //var ts =  getJson();
+            Task<string> ts =  getJson();
 
-            var ts =  getJson();
+            // wait for the task to complete to continue
             output = ts.Result;
 
 
-            //hp.GetStringAsync("http://rcsproductions.us/json-builder.php");
 
         }
 
