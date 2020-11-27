@@ -56,6 +56,9 @@ namespace asp_project
             catch(Exception e)
             {
                 Console.WriteLine(e.Message);
+                DefaultData dd = new DefaultData();
+                lst = dd.lst;
+                
             }
             finally
             {

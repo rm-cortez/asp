@@ -44,15 +44,15 @@ namespace asp_project.Pages
             values = dbconnect.exec_query("select * from technologies order by name");
 
 
-            //output = System.Net.WebUtility.HtmlDecode(JsonConvert.SerializeObject( values) );
+            output = System.Net.WebUtility.HtmlDecode(JsonConvert.SerializeObject( values) );
 
 
+            //http get request
+            ////var ts =  getJson();
+            //Task<string> ts =  getJson();
 
-            //var ts =  getJson();
-            Task<string> ts =  getJson();
-
-            // wait for the task to complete to continue
-            output = ts.Result;
+            //// wait for the task to complete to continue
+            //output = ts.Result;
 
 
 
