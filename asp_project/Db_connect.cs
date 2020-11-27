@@ -23,40 +23,48 @@ namespace asp_project
 
         public List<Dictionary<string,string>> exec_query(string query)
         {
-            
-            
+
+            lst = new List<Dictionary<string, string>>();
             connection = new SqlConnection(connString);
             SqlCommand command = new SqlCommand(query, connection);
-
-            connection.Open();
-
             
 
+            try
+            {
+                connection.Open();
+
+
+
                 reader = command.ExecuteReader();
-                lst = new List<Dictionary<string, string>>();
+
 
                 while (reader.Read())
                 {
-                   
+
 
                     var obj = new Dictionary<string, string>();
 
-                    for (int i=0; i < reader.FieldCount; i++)
+                    for (int i = 0; i < reader.FieldCount; i++)
                     {
                         obj[reader.GetName(i)] = (reader.GetValue(i)).ToString();
                     }
 
                     lst.Add(obj);
 
-
-                   
                 }
-
-
-
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
                 close_conn();
+            }
 
-                return lst;
+               
+
+             return lst;
            
         }
 
@@ -66,12 +74,12 @@ namespace asp_project
             connection = new SqlConnection(connString);
             SqlCommand command = new SqlCommand(query, connection);
 
-            connection.Open();
+            
 
             try
             {
+                connection.Open();
                 command.ExecuteNonQuery();
-
                  retString = (string)command.ExecuteScalar();
             }
 
