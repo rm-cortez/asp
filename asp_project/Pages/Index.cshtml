@@ -32,43 +32,50 @@
     <partial name="_Sidebar" model="@Model"/>
 </div>
 <div class="col-md-9">
-    <div class="">
-        <h1 class="display-4">Welcome</h1>
-        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div class="row">
+        <div class="col-md-12 vh-100">
+            <h1 class="display-4">Welcome</h1>
+            <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 
-        <p>@_name</p>
+            <p>@_name</p>
+            <partial name="_Map" model="@Model" />
+            <table class="table">
 
-        <table class="table">
+                @foreach (var items in Model.values)
+                {
+                    <tr>
+                        @if (ct++ == 0)
+                        {
+                            @foreach (var item in items)
+                            {
+                                <th>@item.Key</th>
+                            }
+                        }
 
-            @foreach (var items in Model.values)
-            {
-                <tr>
-                    @if (ct++ == 0)
-                    {
+
+
+                    </tr>
+                    <tr>
                         @foreach (var item in items)
                         {
-                            <th>@item.Key</th>
+                            <td>@item.Value</td>
                         }
-                    }
 
-
-
-                </tr>
-                <tr>
-                    @foreach (var item in items)
-                    {
-                        <td>@item.Value</td>
-                    }
-
-                </tr>
-            }
-        </table>
+                    </tr>
+                }
+            </table>
+        </div>
+        
+        
 
     </div>
 </div>
 <div>
     <input id="outputStr" value=" @Model.output" type="hidden" />
    
+</div>
+<div>
+    
 </div>
 
 <script>

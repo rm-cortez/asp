@@ -29,6 +29,7 @@
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/Razor/Pages/Privacy.cshtml.g.cs
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
+/Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Map.cshtml.g.cs
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Sidebar.cshtml.g.cs
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
