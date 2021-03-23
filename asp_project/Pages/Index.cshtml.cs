@@ -52,23 +52,22 @@ namespace asp_project.Pages
             //var ts =  getJson();
             Task<string> ts = getJson();
 
-            // wait for the task to complete to continue
-            output = ts.Result;
+            try
+            {
+                // wait for the task to complete to continue
+                output = ts.Result;
 
-            dynamic obj = JsonConvert.DeserializeObject(output);
+                dynamic obj = JsonConvert.DeserializeObject(output);
+
+                content = obj.First.content;
+            }
 
 
-
-            content = obj.First.content;
-
-            //foreach (dynamic item in obj)
-            //{
-            //    foreach (dynamic it in item)
-            //    {
-            //        Console.WriteLine($"Value: {it.content}");
-            //    }
-            //}
-
+            #pragma warning disable 0168
+            catch (Exception e)
+            {
+                content = "<h1>ASP Project</h1>";
+            }
         }
 
         public async Task<string> getJson()
