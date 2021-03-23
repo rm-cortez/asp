@@ -2,81 +2,23 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home";
-    var _name = Model.name;
-    var ct = 0;
-
-    //var _conn = Model.connString;
-
-
-
-
+    //var _conn = Model.connString
 }
-<div class="col-md-12 mt-4">
-    <div class="row no-gutters border rounded shadow position-relative bg-light">
-        <div class="p-4 col-md-12">
-            <div>
-                <h2><strong>Acknowledgment</strong></h2>
-                <ul>
-                    <li>
-                        This application applies content from this website
-                        <ul>
-                            <li><a href="https://www.insider.com/what-every-state-is-best-known-for">Insider</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="col-md-3">
-    <partial name="_Sidebar" model="@Model"/>
-</div>
-<div class="col-md-9">
+
+<div class="col-md-12">
     <div class="row">
         <div class="col-md-12 vh-100">
-            <h1 class="display-4">Welcome</h1>
+            <h1 class="display-4 idx-h1">Welcome</h1>
             <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-
-            <p>@_name</p>
-            <partial name="_Map" model="@Model" />
-            <table class="table">
-
-                @foreach (var items in Model.values)
-                {
-                    <tr>
-                        @if (ct++ == 0)
-                        {
-                            @foreach (var item in items)
-                            {
-                                <th>@item.Key</th>
-                            }
-                        }
-
-
-
-                    </tr>
-                    <tr>
-                        @foreach (var item in items)
-                        {
-                            <td>@item.Value</td>
-                        }
-
-                    </tr>
-                }
-            </table>
+            @Html.Raw(Model.content)
         </div>
-        
-        
-
     </div>
 </div>
 <div>
     <input id="outputStr" value=" @Model.output" type="hidden" />
    
 </div>
-<div>
-    
-</div>
+
 
 <script>
  
