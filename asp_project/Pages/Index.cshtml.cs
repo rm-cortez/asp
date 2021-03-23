@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Hosting;
 using Newtonsoft.Json;
 using System.Net.Http;
 
@@ -27,13 +28,24 @@ namespace asp_project.Pages
         public List<Dictionary<string, string>> values;
         public string output;
         public string content;
+        public string apiUrl;
 
 
-        public IndexModel(ILogger<IndexModel> logger, IConfiguration configuration)
+        public IndexModel(ILogger<IndexModel> logger, IConfiguration configuration, IWebHostEnvironment env)
         {
             _logger = logger;
             Configuration = configuration;
-            
+
+            if (env.EnvironmentName == "Development")
+            {
+                apiUrl = Configuration["ApiUrl:dev"];
+            }
+            else
+            {
+                apiUrl = Configuration["ApiUrl:prod"];
+            }
+
+
         }
 
         public void OnGet()
@@ -74,7 +86,7 @@ namespace asp_project.Pages
         {
             //get request
             HttpClient hp = new HttpClient();
-            hp.BaseAddress = new Uri("http://rcsproductions.us/");
+            hp.BaseAddress = new Uri(apiUrl);
             var response = (await hp.GetAsync("content-builder.php?type=asp") ).Content.ReadAsStringAsync().Result;
 
             
