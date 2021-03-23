@@ -1,16 +1,10 @@
 ﻿<Properties StartupConfiguration="{0F03BF26-D073-4A46-AFD9-FB866F06796E}|Default">
   <MonoDevelop.Ide.ItemProperties.asp__project PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/Db_connect.cs">
-    <Files>
-      <File FileName="asp_project/Pages/Index.cshtml" Line="36" Column="37" />
-      <File FileName="asp_project/Pages/Index.cshtml.cs" Line="50" Column="31" />
-      <File FileName="asp_project/Db_connect.cs" Line="15" Column="8" />
-      <File FileName="asp_project/DefaultData.cs" Line="7" Column="10" NotebookId="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="asp_project" expanded="True">
+          <Node name="asp_project" expanded="True" selected="True">
             <Node name="asp_project" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
@@ -33,7 +27,6 @@
                   </Node>
                 </Node>
               </Node>
-              <Node name="Db_connect.cs" selected="True" />
             </Node>
           </Node>
         </State>
