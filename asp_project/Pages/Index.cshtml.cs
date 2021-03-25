@@ -78,7 +78,7 @@ namespace asp_project.Pages
             #pragma warning disable 0168
             catch (Exception e)
             {
-                content = "<h1>ASP Project</h1>";
+                content = "<h1>ASP Project</h1><p>The main idea behind this project was to get acquainted with ASP and gain more experience on hybrid / PWA applications.</p>";
             }
         }
 

@@ -43,3 +43,4 @@
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.dll
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.pdb
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.genruntimeconfig.cache
+/Users/ronaldcortez/projects/asp_project/asp_project/obj/Debug/netcoreapp3.1/asp_project.csprojAssemblyReference.cache
