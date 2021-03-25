@@ -1,4 +1,4 @@
-function scan(){
+function readImage(){
 
   requirejs(["zxing"], function(util) {
     //This function is called when scripts/helper/util.js is loaded.
@@ -10,21 +10,19 @@ function scan(){
     const codeReader = new util.BrowserMultiFormatReader();
     var img = document.querySelector("#img")
 
-    console.log("codeReader",img)
-
-
-  
-
+    //console.log("codeReader",img)
 
     codeReader.decodeFromImage(img)
     .then(result => {
-      console.log(result);
+      console.log("Result",result);
 
     })
     .catch(err => {
-      console.error(err);
+      console.error("err",err);
 
     });
+
+
 
 
   });
