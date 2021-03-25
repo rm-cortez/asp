@@ -35,3 +35,12 @@
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Release/netcoreapp3.1/asp_project.pdb
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Release/netcoreapp3.1/asp_project.genruntimeconfig.cache
 /Users/ronaldcortez/projects/asp_project/asp_project/obj/Release/netcoreapp3.1/asp_project.csproj.CopyComplete
+/Users/ronaldcortez/projects/asp_project/asp_project/bin/Release/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/ronaldcortez/projects/asp_project/asp_project/bin/Release/netcoreapp3.1/System.Data.SqlClient.dll
+/Users/ronaldcortez/projects/asp_project/asp_project/bin/Release/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+/Users/ronaldcortez/projects/asp_project/asp_project/bin/Release/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+/Users/ronaldcortez/projects/asp_project/asp_project/bin/Release/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+/Users/ronaldcortez/projects/asp_project/asp_project/bin/Release/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/ronaldcortez/projects/asp_project/asp_project/bin/Release/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/ronaldcortez/projects/asp_project/asp_project/obj/Release/netcoreapp3.1/Razor/Pages/Shared/_Map.cshtml.g.cs
+/Users/ronaldcortez/projects/asp_project/asp_project/obj/Release/netcoreapp3.1/Razor/Pages/Shared/_Sidebar.cshtml.g.cs
