@@ -1,6 +1,8 @@
 ﻿@{
     ViewData["project"] = "ASP Project";
 
+    ViewData["hostname"] = $"{Context.Request.Scheme}://{Context.Request.Host}";
+
     var _pagesArr = new[] { "Index","About" };
 
 
@@ -14,6 +16,14 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkTqkS2H8tQmSvjcUwoH7C5nhdBXVHhzU"></script>
+
+
+    <script src="~/scripts/capacitor.js"></script>
+    <script type="module"
+            src="~/scripts/pwa-elements/dist/ionicpwaelements/ionicpwaelements.esm.js"></script>
+    <script nomodule
+            src="~/scripts/pwa-elements/dist/ionicpwaelements/ionicpwaelements.js"></script>
+
 </head>
 <body>
     <header>
@@ -75,9 +85,11 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    
+
     <script src="~/js/analytics.js"></script>
+    <script data-main="@ViewData["hostname"]/scripts/main.js" src="@ViewData["hostname"]/scripts/require.js"></script>
 
     @RenderSection("Scripts", required: false)
+
 </body>
 </html>
