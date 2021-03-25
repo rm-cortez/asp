@@ -6,15 +6,31 @@
 }
 
     <div class="col-md-12">
-        <p>@Model.status</p>
-        <button type="button" class="btn btn-primary" onClick="Btn_click()">Primary</button>
+        
         <div class="container bg-white rounded shadow p-4 my-4">
-          <div class="row">
-            <img id="img" src="scripts/bc39.png" alt="" width="250">
-            <button type="button" name="button" onclick="takePhoto()">Scan</button>
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="button" class="btn btn-sm btn-primary float-right" onclick="takePhoto()">Scan</button>
+                    <input type="file"
+                           id="imageUpload"
+                           class="form-control form-control-sm"
+                           onchange="loadImage()"
+                           accept="image/*" />
+                </div>
 
-          </div>
+                <div class="col-md-12 text-center bg-dark my-4 rounded py-4 img-div">
+                    <img id="img" src="scripts/cropped-logo.png" alt="" width="250">
+                </div>
+
+                <div class="col-md-12 text-white bg-dark  rounded py-4 result-div">
+                    <h2>Result:</h2>
+                    <p id="result"></p>
+                </div>
+
+            </div>
         </div>
+
+
     </div>
 
 
@@ -40,5 +56,14 @@ function takePhoto(){
 
   })
 
+}
+
+function loadImage() {
+    var file = document.querySelector('#imageUpload')
+    //console.log(file.files[0])
+
+    document.querySelector('#img').src = window.URL.createObjectURL(file.files[0])
+
+    readImage()
 }
 </script>

@@ -93,3 +93,19 @@ body {
     border: 5px solid #000;
     border-radius: 5px;
 }
+
+#imageUpload {
+    width: 25%;
+    padding: 0;
+}
+
+.result-div {
+    min-height: 140px;
+}
+
+.img-div {
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

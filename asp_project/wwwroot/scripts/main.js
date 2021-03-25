@@ -12,15 +12,37 @@ function readImage(){
 
     //console.log("codeReader",img)
 
-    codeReader.decodeFromImage(img)
-    .then(result => {
-      console.log("Result",result);
+      codeReader.decodeFromImage(img)
+          .then(result => {
+              //console.log("Result",result);
 
-    })
-    .catch(err => {
-      console.error("err",err);
+              if (result.text.substr(0, 4).toLowerCase() == 'http') {
 
-    });
+                  document.querySelector('#result').innerText = ""
+
+                  var anchor = document.createElement("a")
+                  var linkText = document.createTextNode(result.text);
+                  anchor.href = result.text
+                  anchor.appendChild(linkText)
+
+                  document.querySelector('#result').appendChild(anchor)
+
+
+              }
+              else {
+
+                  document.querySelector('#result').innerHtml = ""
+                  document.querySelector('#result').innerText = result.text
+
+              }
+
+          })
+          .catch(err => {
+              //console.error("err",err);
+              document.querySelector('#result').innerHtml = ""
+              document.querySelector('#result').innerText = err
+
+          });
 
 
 

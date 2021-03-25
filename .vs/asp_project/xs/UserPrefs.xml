@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{0F03BF26-D073-4A46-AFD9-FB866F06796E}|Default">
   <MonoDevelop.Ide.ItemProperties.asp__project PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/wwwroot/scripts/main.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/wwwroot/css/site.css">
     <Files>
       <File FileName="asp_project/Pages/Shared/_Layout.cshtml" Line="4" Column="28" />
-      <File FileName="asp_project/Pages/About.cshtml" />
+      <File FileName="asp_project/Pages/About.cshtml" Line="6" Column="2" />
       <File FileName="asp_project/wwwroot/scripts/main.js" Line="14" Column="1" />
       <File FileName="asp_project/Pages/Index.cshtml.cs" />
+      <File FileName="asp_project/wwwroot/css/site.css" Line="95" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,9 +22,11 @@
               </Node>
               <Node name="Properties" expanded="True" />
               <Node name="wwwroot" expanded="True">
-                <Node name="scripts" expanded="True">
-                  <Node name="main.js" selected="True" />
+                <Node name="css" expanded="True">
+                  <Node name="site.css" selected="True" />
                 </Node>
+                <Node name="img" expanded="True" />
+                <Node name="scripts" expanded="True" />
               </Node>
               <Node name="appsettings.json" expanded="True" />
             </Node>
