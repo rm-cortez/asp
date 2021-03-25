@@ -1,13 +1,8 @@
 ﻿<Properties StartupConfiguration="{0F03BF26-D073-4A46-AFD9-FB866F06796E}|Default">
   <MonoDevelop.Ide.ItemProperties.asp__project PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/Pages/Index.cshtml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/Pages/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="asp_project/Pages/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="asp_project/Pages/Index.cshtml" Line="15" Column="6" />
-      <File FileName="asp_project/Pages/Index.cshtml.cs" Line="44" Column="14" />
-      <File FileName="asp_project/Db_connect.cs" Line="1" Column="1" />
-      <File FileName="asp_project/appsettings.json" Line="18" Column="2" />
-      <File FileName="asp_project/Startup.cs" Line="15" Column="6" />
+      <File FileName="asp_project/Pages/Shared/_Layout.cshtml" Line="32" Column="58" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,11 +11,11 @@
             <Node name="asp_project" expanded="True">
               <Node name="Dependencies" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="Shared" expanded="True" />
-                <Node name="About.cshtml" expanded="True" />
-                <Node name="Index.cshtml" expanded="True">
-                  <Node name="Index.cshtml.cs" selected="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
                 </Node>
+                <Node name="About.cshtml" expanded="True" />
+                <Node name="Index.cshtml" expanded="True" />
                 <Node name="Privacy.cshtml" expanded="True" />
               </Node>
               <Node name="Properties" expanded="True" />
