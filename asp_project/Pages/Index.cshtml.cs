@@ -52,12 +52,30 @@ namespace asp_project.Pages
         {
 
 
+
+
+
             //Db_connect dbconnect = new Db_connect(Configuration);
             //values = new List<Dictionary<string, string>>();
             //values = dbconnect.exec_query("select * from technologies order by name");
 
 
             //output = System.Net.WebUtility.HtmlDecode(JsonConvert.SerializeObject( values) );
+
+            //            < div >
+            //    < input id = "outputStr" value = " @Model.output" type = "hidden" />
+
+            //     </ div >
+
+            //     < script >
+            //         var obj = JSON.parse(document.querySelector('#outputStr').value)
+            //    console.log(obj)
+
+            //    document.addEventListener("DOMContentLoaded", function() {
+            //                console.log('jquery:', $('#outputStr').val())
+
+            //    });
+            //</ script >
 
 
             //http get request

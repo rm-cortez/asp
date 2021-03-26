@@ -10,29 +10,7 @@
         <div class="col-md-12 vh-100">
             @Html.Raw(Model.content)
         </div>
-        environment
-        <p>@Model.apiUrl</p>
     </div>
 </div>
-<div>
-    <input id="outputStr" value=" @Model.output" type="hidden" />
-   
-</div>
 
-
-<script>
- 
-   
-
-    var obj = JSON.parse(document.querySelector('#outputStr').value)
-    console.log(obj)
-
-
-    
-
-    document.addEventListener("DOMContentLoaded", function () {
-        console.log('jquery:', $('#outputStr').val())
-
-    });
-</script>
 

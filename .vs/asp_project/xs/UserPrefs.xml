@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{0F03BF26-D073-4A46-AFD9-FB866F06796E}|Default">
   <MonoDevelop.Ide.ItemProperties.asp__project PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/wwwroot/css/site.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/Pages/Index.cshtml">
     <Files>
-      <File FileName="asp_project/Pages/Shared/_Layout.cshtml" Line="4" Column="28" />
-      <File FileName="asp_project/Pages/About.cshtml" Line="6" Column="2" />
-      <File FileName="asp_project/wwwroot/scripts/main.js" Line="14" Column="1" />
+      <File FileName="asp_project/Pages/Shared/_Layout.cshtml" Line="7" Column="1" />
+      <File FileName="asp_project/Pages/About.cshtml" Line="13" Column="78" />
+      <File FileName="asp_project/wwwroot/scripts/main.js" />
       <File FileName="asp_project/Pages/Index.cshtml.cs" />
-      <File FileName="asp_project/wwwroot/css/site.css" Line="95" Column="2" />
+      <File FileName="asp_project/wwwroot/css/site.css" />
+      <File FileName="asp_project/Pages/Index.cshtml" Line="18" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,14 +18,12 @@
               <Node name="Pages" expanded="True">
                 <Node name="Shared" expanded="True" />
                 <Node name="About.cshtml" expanded="True" />
-                <Node name="Index.cshtml" expanded="True" />
+                <Node name="Index.cshtml" expanded="True" selected="True" />
                 <Node name="Privacy.cshtml" expanded="True" />
               </Node>
               <Node name="Properties" expanded="True" />
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="site.css" selected="True" />
-                </Node>
+                <Node name="css" expanded="True" />
                 <Node name="img" expanded="True" />
                 <Node name="scripts" expanded="True" />
               </Node>
