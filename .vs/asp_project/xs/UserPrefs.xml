@@ -3,11 +3,11 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="asp_project/Pages/Index.cshtml">
     <Files>
       <File FileName="asp_project/Pages/Shared/_Layout.cshtml" Line="7" Column="1" />
-      <File FileName="asp_project/Pages/About.cshtml" Line="13" Column="78" />
+      <File FileName="asp_project/Pages/About.cshtml" />
       <File FileName="asp_project/wwwroot/scripts/main.js" />
       <File FileName="asp_project/Pages/Index.cshtml.cs" />
       <File FileName="asp_project/wwwroot/css/site.css" />
-      <File FileName="asp_project/Pages/Index.cshtml" Line="18" Column="4" />
+      <File FileName="asp_project/Pages/Index.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
